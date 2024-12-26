@@ -1,0 +1,61 @@
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+/* #register {
+ background-color: rgb(84,125,247);
+ color: white;
+} */
+.btn{
+    border: 1px solid cornflowerblue;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 1px;
+   
+}
+.btn-primary{
+    background-color: rgb(84,125,247);
+    color: white;
+}
+.head{
+    display: flex;
+    align-items: center;
+   
+}
+.logo {
+    width: 20%;
+    
+}
+img{
+    width: 180px;
+    padding: 0;
+}
+/* #login {
+    background-color: rgb(84,125,247);
+} */
+.menu{
+width: 50%;
+/* display: inline-block; */
+}
+.login{
+    width: 25%;
+    display: grid;
+    /* margin-top: 5px; */
+    /* display: inline-block; */
+}
+/* .login a{
+    padding: 10px 10px;
+    
+} */
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    padding:0 15px;
+}

@@ -1,0 +1,183 @@
+:root{
+--primary-color:#477eff;
+--secondary-color:#0953ff;
+--hover-color:#55d2a7;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+    transition: all 0.2s;
+}
+a:hover{
+    color: var(--secondary-color);
+}
+.logo,
+.menu,
+.login{
+    align-self: center;
+  
+}
+
+.head{
+    display: flex;
+    padding: 5px 30px;
+    border: 1px solid #ddd;
+}
+.logo{
+    width: 24%;
+}
+.logo img{
+    width: 130px;
+}
+.menu{
+    width: 50%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 60px;
+    position: relative;
+}
+.menu ul li{
+    display: inline;
+    padding-right: 10px;
+}
+.menu ul li a{
+    font-size: 18px; 
+}
+div.login{
+    width: 25%;
+}
+.btn{
+    padding: 15px 30px;
+    border-radius: 4px;
+    color:white;
+    border: 1px solid var(--secondary-color);
+    transition: all 0.2s;
+}
+.btn-primary{
+    background-color: 1px solid var(--primary-color);
+}
+.btn-primary:hover{
+    background-color: var(--hover-color);
+    color: black;
+}
+.btn-secondary{
+    color:black;
+}
+.btn-secondary:hover{
+    background-color: var(--hover-color);
+    color: white;
+}
+#register{
+    background-color: var(--primary-color);
+}
+.login a{
+    font-size: 18px;
+}
+/* * * head * * */
+/* * * intro * * */
+#intro{
+    background-image: url(../img/back2.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 640px;
+    
+}
+.intro-text h1{
+font-size: 64px;
+font-weight: 700;
+letter-spacing: 0;
+line-height: 74px;
+margin-bottom: 20px;
+padding-top: 250px;
+
+}
+.intro-text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+#intro-image{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+#intro-image img{
+    max-width: 100%;
+    height: auto;
+}
+.row{
+    display: flex;
+}
+.row > *{
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+.span6{
+    width: 50%;
+}
+.span3{
+    width: 25%;
+    
+}
+
+.search-form{
+    display: block;
+    position: relative;
+    margin-top: 30px;
+}
+.search-form button{
+    height: 60px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: block;
+    width: 25%;
+    background-color: var(--secondary-color);
+    
+}
+.form-control{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border:none;
+    outline: 1px solid #ccc;
+    transition: outline 0.2s;
+}
+.search-input{
+    background-color: white;
+    border-radius: 10px;
+    color:#323232;
+    display: block;
+    height: 70px;
+    margin: 0;
+    padding: 0 20px 0 60px;
+    width: 100%;
+}
+/*** report ***/
+#report{
+    position: relative;
+    margin-top:-60px;
+    padding-bottom: 80px;
+}
+.single_report{
+    background-color: white;
+    padding:20px;
+    border: 1px solid #ddd;
+    box-shadow: 10px 15px 18px rgba(23,23,26,0.05);
+    border-radius: 20px;
+}
